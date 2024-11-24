@@ -10,4 +10,4 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Update GitHub Stats
-        uses: anuraghazra/github-readme-stats@master
+        uses: rachel-johns/github-readme-stats@master
