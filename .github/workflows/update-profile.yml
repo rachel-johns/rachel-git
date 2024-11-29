@@ -9,5 +9,23 @@ jobs:
   update:
     runs-on: ubuntu-latest
     steps:
-      - name: Update GitHub Stats
-        uses: rachel-johns/github-readme-stats@master
+      # Checkout the repository
+      - name: Checkout Repository
+        uses: actions/checkout@v3
+        with:
+          repository: rachel-johns/rachel-git # Specify your repository
+
+      # Generate GitHub Stats Banner
+      - name: Generate GitHub Stats
+        uses: anuraghazra/github-readme-stats@master
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }} # Provides access to your repository
+
+      # Commit and Push Changes
+      - name: Commit and Push Changes
+        run: |
+          git config --global user.name "github-actions[bot]"
+          git config --global user.email "github-actions[bot]@users.noreply.github.com"
+          git add README.md
+          git commit -m "Update README with GitHub Stats"
+          git push
