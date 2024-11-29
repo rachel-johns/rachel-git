@@ -20,7 +20,7 @@
   - **SAS Modules**: PROC GLM, PROC LOGISTIC, PROC MIXED, PROC SURVEYREG, PROC CLUSTER, PROC TTEST, PROC ANOVA, PROC GPLOT, PROC SGPLOT, PROC GCHART, PROC GMAP, PROC G3D, PROC GCONTOUR
   - **SQL Extensions**: T-SQL, PL/pgSQL
 
-- 🛠️ **Tools**: Excel & Powerpoint (duh! --no, seriously, I was asked about this in an interview recently), Power BI, Tableau, Alteryx, Azure (Data warehousing, DataBricks, Azure Data Lake)
+- 🛠️ **Business Intelligence Tools**: Excel & Powerpoint (duh! --no, seriously, I was asked about this in an interview recently), Power BI, Tableau, Alteryx, Azure (Data warehousing, DataBricks, Azure Data Lake)
 - 🌍 **Web**: Flask, Django
 - 🗂️ **ERP & CRM Systems**: SAP, Microsoft Dynamics 365 (F&O and Dynaway), PeopleSoft, Oracle Cloud & NetSuite, Workday, & Salesforce
 
